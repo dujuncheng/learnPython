@@ -1,5 +1,5 @@
 from c3 import b
-from test_import_dir1.c1 import a
+from test_import_dir1 import *
 
-print (b)
-print (a)
+print (c4.e)
+print (c1.a)
